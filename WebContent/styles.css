@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #32752F;
+}
+
+#back {
+	background-image: url("images/hotel.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	color: white;
+	display: inline-block;
+}
+
+.topic {
+	font-size: 25px;
+	text-align: center;
+}
+
+.user {
+	font-size: 35px;
+	color: DarkBlue;
+	cursor: pointer;
+}
+
+label {
+	color: DarkBlue;
+	font-size: 20px;
+}
+
+fieldset {
+	display: block;
+	height: 100%;
+	width: 60%;
+	background-image: radial-gradient(circle, #69EF62, #7EEE78);
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border-style: none;
+	text-align: center;
+}
+
+input[type=submit] {
+	background-color: #32B736;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type=submit]:hover {
+	background-color: #4CED50;
+}
+
+input[type=text], input[type=email], input[type=phone], input[type=password],
+	input[type=datetime-local], input[type=number], select {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #515953;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	padding: 12px 20px;
+	border: 1px solid #515953;
+	border-radius: 4px;
+	font-size: 16px;
+	resize: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.types {
+	display: none;
+	position: absolute;
+	background-color: #359B4D;
+	min-width: 100px;
+}
+
+.types a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 1.6em;
+}
+
+.types a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .types {
+	display: block;
+}
+
+.right{
+	float:right;
+}
+
+.button {
+	background-color: #32B736;
+	border: none;
+	padding: 12px 30px;
+	display:flex;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 15px 75px 15px 75px;
+	text-align:center;
+	opacity:1;
+}
+
+.button:hover {
+	background-color: #4CED50;
+	color:white;
+}
+
+a {
+	text-decoration: none;
+}
+
+table, tr, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+td, th {
+	padding: 15px;
+	text-align: left;
+}
+
+table {
+	margin: 10px;
+	height: 100%;
+	width: 80%;
+	align: center;
+}
+
+select option {
+	font-size: 16px;
+}
